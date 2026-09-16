@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>PHALENDROME SOLUTIONS | Product-led digital delivery</title>
+  <meta name="description" content="PHALENDROME SOLUTIONS builds premium digital products and polished web experiences for ambitious teams.">
+  <meta property="og:title" content="PHALENDROME SOLUTIONS | Product-led digital delivery">
+  <meta property="og:description" content="Premium websites, product experiences, and digital systems with clear execution.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.phalendrome.co.za/">
+  <link rel="canonical" href="https://www.phalendrome.co.za/">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="PHALENDROME SOLUTIONS Home">
+        <img src="assets/logo-mark.svg" alt="" aria-hidden="true" class="logo-mark" height="38" width="38">
+        <span class="logo-text">PHALENDROME</span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="btn btn-primary nav-cta">Start a Project</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-overlay" id="navDrawerOverlay" aria-hidden="true">
+    <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+      <button class="drawer-close" aria-label="Close menu">✕</button>
+      <nav class="drawer-nav" role="navigation" aria-label="Mobile menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="btn btn-primary btn-lg">Start a Project</a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-ambient">
+        <canvas id="latticeCanvas" aria-hidden="true"></canvas>
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">South Africa's digital studio</p>
+          <h1>We build websites and platforms that work.</h1>
+          <p class="lead">Consistent from day one, reliable every day after, that's the symmetry we're named for. We build websites and digital platforms for small and growing businesses tired of being invisible online, and we stay in it with you long after launch.</p>
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary">Let's talk about your project</a>
+            <a href="services.html" class="btn btn-secondary">See the stack</a>
+          </div>
+        </div>
+        <div class="hero-preview reveal">
+          <div class="browser-frame">
+            <div class="browser-bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="browser-screen">
+              <div class="screen-sidebar"></div>
+              <div class="screen-main">
+                <div class="screen-card large"></div>
+                <div class="screen-card"></div>
+                <div class="screen-card"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Capabilities</p>
+          <h2>Structured build work with a sharp finish.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-index">01</div>
+            <h3>Strategy</h3>
+            <p>Clear positioning and information structure before a single screen is built.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-index">02</div>
+            <h3>Design systems</h3>
+            <p>Refined interfaces with clean components, motion, and steady visual rhythm.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-index">03</div>
+            <h3>Delivery</h3>
+            <p>Launch-ready build work with documentation, QA, and post-launch support.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container deep-dive reveal">
+        <div class="deep-dive-copy">
+          <p class="eyebrow">Delivery snapshot</p>
+          <h2>Measured from kickoff to launch.</h2>
+          <p>Every build follows a focused brief, a documented plan, and a clean handoff.</p>
+          <div class="spec-table">
+            <div><span>Delivery</span><strong>Focused scope and steady execution</strong></div>
+            <div><span>Support</span><strong>Post-launch care</strong></div>
+          </div>
+        </div>
+        <div class="deep-dive-visual">
+          <div class="device-card">
+            <div class="device-top"></div>
+            <div class="device-body"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Product walkthrough</p>
+          <h2>See how the experience unfolds.</h2>
+        </div>
+        <div class="walkthrough-shell reveal">
+          <div class="walkthrough-tabs">
+            <button class="walkthrough-tab active" data-target="flow-discovery" type="button">Discovery</button>
+            <button class="walkthrough-tab" data-target="flow-build" type="button">Build</button>
+            <button class="walkthrough-tab" data-target="flow-launch" type="button">Launch</button>
+          </div>
+          <div class="walkthrough-panel active" id="flow-discovery">
+            <div>
+              <p class="eyebrow">Step 01</p>
+              <h3>Direction before design.</h3>
+              <p>We map the user path, content hierarchy, and launch objectives before we shape the experience.</p>
+            </div>
+            <div class="code-badge">focus / intent / scope</div>
+          </div>
+          <div class="walkthrough-panel" id="flow-build">
+            <div>
+              <p class="eyebrow">Step 02</p>
+              <h3>Interface systems that scale.</h3>
+              <p>The build stays flexible, documented, and clear so future updates don’t slow the team down.</p>
+            </div>
+            <div class="code-badge">ui / tokens / motion</div>
+          </div>
+          <div class="walkthrough-panel" id="flow-launch">
+            <div>
+              <p class="eyebrow">Step 03</p>
+              <h3>Launch support that keeps momentum.</h3>
+              <p>We hand over a stable product and stay available for refinement once the site is live.</p>
+            </div>
+            <div class="code-badge">qa / analytics / handoff</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div class="container cta-card reveal" data-preset="classic">
+        <div>
+          <p class="eyebrow cta-tag"
+             data-label="Ready to launch"
+             data-label-classic="Ready to launch"
+             data-label-modern="Built for scale"
+             data-label-vibrant="Ship today">Let's build it.</p>
+          <h2 class="cta-title"
+              data-title-classic="Let’s shape a launch-ready experience."
+              data-title-modern="Bring your next idea into a refined digital experience."
+              data-title-vibrant="Build something bold, fast, and unforgettable.">Let’s shape a launch-ready experience.</h2>
+        </div>
+        <a href="contact.html"
+           class="btn btn-primary"
+           data-button-classic="Book a discovery call"
+           data-button-modern="Plan your build"
+           data-button-vibrant="Start your sprint">Book a discovery call</a>
+      </div>
+    </section>
+  </main>
+
+  <a href="https://wa.me/27820941967" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 448 512" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#ffffff" d="M391.7 330.3c-24.5 0-48.1-3.8-70.8-11.3-6.9-2.2-14.5-0.5-19.9 4.9l-27.9 27.9c-60.1-31.9-108.7-80.6-140.5-140.7l27.9-27.9c5.4-5.4 7.1-13 4.9-19.9-7.5-22.7-11.3-46.3-11.3-70.8 0-19.4-15.7-35.1-35.1-35.1h-61.5c-15.7 0-28.5 10.7-32.8 25.7-12.7 44.9-12.2 91.2 1.5 136.2 16.8 55.7 48.8 107.8 92.5 151.5 43.6 43.6 95.9 75.7 151.5 92.5 44.9 13.7 91.3 14.2 136.2 1.5 15-4.3 25.7-17.1 25.7-32.8v-61.5c0-19.4-15.7-35.1-35.1-35.1z"/>
+    </svg>
+  </a>
+
+  <footer class="site-footer site-footer--compact">
+    <div class="container footer-compact">
+      <a href="index.html" class="logo"><img src="assets/logo-mark.svg" alt="PHALENDROME SOLUTIONS" height="38" width="38"></a>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-note">&copy; <span id="year1"></span> PHALENDROME SOLUTIONS</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
