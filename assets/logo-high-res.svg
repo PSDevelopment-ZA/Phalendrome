@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="PHALENDROME SOLUTIONS logo - High Resolution">
+  <defs>
+    <style>
+      .logo-primary { fill: #2563EB; }
+      .logo-secondary { fill: #1e40af; }
+      .logo-text { font-family: 'Inter', Arial, sans-serif; }
+    </style>
+  </defs>
+  
+  <!-- Palindromic mark (medium-small-large-small-medium) -->
+  <g>
+    <rect x="30" y="60" width="20" height="120" class="logo-primary" rx="10"/>
+    <rect x="90" y="90" width="20" height="60" class="logo-primary" rx="10"/>
+    <rect x="170" y="30" width="20" height="180" class="logo-secondary" rx="10"/>
+    <rect x="250" y="90" width="20" height="60" class="logo-primary" rx="10"/>
+    <rect x="310" y="60" width="20" height="120" class="logo-primary" rx="10"/>
+    
+    <!-- Text: Company name -->
+    <text x="420" y="130" font-size="65" font-weight="700" class="logo-text logo-primary" letter-spacing="2">PHALENDROME</text>
+    
+    <!-- Text: Tagline -->
+    <text x="420" y="200" font-size="45" font-weight="500" class="logo-text logo-secondary">SOLUTIONS</text>
+  </g>
+</svg>
