@@ -1,0 +1,22 @@
+{
+  "name": "phalendrome-site",
+  "version": "2.0.0",
+  "description": "Public marketing site for PHALENDROME SOLUTIONS. Static HTML/CSS/JS served from the repo root via GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "dev": "serve .",
+    "build": "node scripts/build.js",
+    "lint": "eslint scripts test && node scripts/lint-html.js",
+    "test": "node --test",
+    "start": "serve ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.8.0"
+  }
+}
